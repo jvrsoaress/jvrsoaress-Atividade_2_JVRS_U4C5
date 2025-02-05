@@ -3,14 +3,14 @@
 
 ## Objetivo do Projeto
 
-Este projeto implementa um sistema de temporização para acionamento de LEDs utilizando um *Raspberry Pi Pico W. O sistema é ativado por um botão (pushbutton) e desliga os LEDs sequencialmente a cada **3 segundos*, conforme os requisitos da atividade. O projeto foi desenvolvido como parte de uma atividade prática que exigia o uso da função add_alarm_in_ms() do *Pico SDK* para criar um temporizador de um disparo (one-shot) e controlar a mudança de estados dos LEDs.
+Este projeto implementa um sistema de temporização para acionamento de LEDs utilizando um Raspberry Pi Pico W. O sistema é ativado por um botão (pushbutton) e desliga os LEDs sequencialmente a cada 3 segundos, conforme os requisitos da atividade. O projeto foi desenvolvido como parte de uma atividade prática que exigia o uso da função add_alarm_in_ms() do Pico SDK para criar um temporizador de um disparo (one-shot) e controlar a mudança de estados dos LEDs.
 
 ## 🗒️ Lista de requisitos
 
 - **Uso de interrupções**: Todas as funcionalidades relacionadas aos botões devem ser implementadas utilizando rotinas de interrupção (IRQ); 
 - **Debouncing**: É obrigatório implementar o tratamento do bouncing dos botões via software; 
 - **Controle de LEDs**: O projeto deve incluir o uso de LEDs comuns e LEDs WS2812, demonstrando o domínio de diferentes tipos de controle;
-- **Organização do código**: O código deve estar bem estruturado e comentado para facilitar o entendimento. .
+- **Organização do código**: O código deve estar bem estruturado e comentado para facilitar o entendimento.
 
 ## 🛠 Tecnologias
 
